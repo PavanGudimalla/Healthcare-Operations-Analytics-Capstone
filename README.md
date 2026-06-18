@@ -1,16 +1,18 @@
-# Healthcare-Operations-Analytics-Capstone
+# 🏥 OhioHealth Performance Metric Dashboard & Intervention Analytics
 
-## Project Overview
-This capstone project focuses on the evaluation and optimization of hospital operations within the OhioHealth network. By conducting a deep dive into 47 critical performance metrics, this analysis identifies key areas for operational improvement, resource reallocation, and efficiency gains. The project serves as a data-driven guide to enhancing patient care delivery while maintaining fiscal responsibility.
+## 🎯 Executive Summary
+This project evaluates the operational intervention process at OhioHealth to determine if current executive dashboard trigger logic effectively distinguishes meaningful performance issues from routine variation. By analyzing historical countermeasure records, this project successfully architected a shift from a reactive reporting model to a **signal-based decision framework**, significantly reducing administrative burden and optimizing operational outcomes.
 
-## Tech Stack & Tools
-- **Microsoft Excel**: Leveraged for data cleaning, advanced statistical calculations, and the creation of interactive performance dashboards.
-- **Statistical Frameworks**: Applied various statistical methodologies to ensure the robustness and validity of the findings, including trend analysis and variance testing.
+## 🛠️ Analytical Approach & Methodology
+* **Scale & Scope:** Processed and analyzed **1,296 site-metric-month observations** across 17 months of performance data to evaluate short-term operational responses.
+* **KPI Evaluation:** Assessed **47 distinct metrics** across four critical balanced scorecard quadrants: Quality, Service, Finance, and Culture.
+* **Statistical Modeling:** Deployed lagged regression testing and pattern testing to isolate and measure the short-term impact of formal interventions, controlling for site, metric, and temporal variables.
 
-## Methodology
-The project was executed over a four-month period from February to May 2026. The methodology included:
-1. **Data Acquisition**: Aggregating raw operational data across multiple hospital departments.
-2. **Metric Selection**: Identifying 47 high-impact performance metrics ranging from patient wait times to supply chain efficiency.
-3. **Statistical Analysis**: Utilizing Excel-based statistical tools to analyze performance trends and identify statistically significant deviations from benchmarks.
-4. **Optimization Modeling**: Developing optimization strategies based on the analytical results to streamline workflows and improve overall hospital throughput.
-5. **Reporting & Visualization**: Translating complex data into actionable insights through detailed reporting and visualization for stakeholders.
+## 📊 Key Findings
+* **Context is Everything:** System-wide testing revealed that interventions moved performance positively, but effects were highly dependent on timing. 
+* **Target Proximity:** Interventions generated the highest ROI when performance was already close to the target, proving that early, data-driven action outperforms delayed, reactive measures.
+* **The "Control Panel" Design:** Developed a decision-support framework utilizing trend direction, distance from target, and historical variability to categorize operational actions into clear, actionable states: *Monitor, Intervene, or Escalate*.
+
+## 💡 Business & Strategic Impact
+* **Reduced Administrative Waste:** Streamlined the Root Cause Analysis (RCA) pipeline by screening out routine statistical variations before assigning countermeasure work.
+* **Actionable Intelligence:** Transformed a static monthly dashboard into a dynamic learning system that validates operational deterioration before committing leadership resources.
